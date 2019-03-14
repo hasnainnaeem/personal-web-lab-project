@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b293060a-da7b-4f89-be01-34bbc550e6ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="b293060a-da7b-4f89-be01-34bbc550e6ae" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -118,8 +116,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -128,7 +127,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -157,7 +159,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/main.js" working-dir="$PROJECT_DIR$">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../personal-web-lab-project/js/main.js" working-dir="$PROJECT_DIR$/../personal-web-lab-project">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -189,7 +191,7 @@
       <workItem from="1552503655431" duration="30000" />
       <workItem from="1552539543337" duration="938000" />
       <workItem from="1552556792319" duration="1815000" />
-      <workItem from="1552566064999" duration="329000" />
+      <workItem from="1552566064999" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="First personal site commit">
       <created>1552566195225</created>
@@ -198,20 +200,26 @@
       <option name="project" value="LOCAL" />
       <updated>1552566195225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated js file">
+      <created>1552566462783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552566462783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51209000" />
+    <option name="totallyTimeSpent" value="51451000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16773504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08271865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32664436" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32995495" />
@@ -233,7 +241,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First personal site commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First personal site commit" />
+    <MESSAGE value="updated js file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated js file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
