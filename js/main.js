@@ -15,5 +15,4 @@ let ids = ["tech-skills-list", "soft-skills-list"];
 for (let i =0; i < ids.length; i++)
     changeListStyle(ids[i]);
 
-// let test1 = document.getElementById("test");
-// test1.innerText = "My name is M. Hasnain;";
+
