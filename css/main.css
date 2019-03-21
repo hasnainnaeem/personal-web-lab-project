@@ -371,9 +371,14 @@ td.slim-column {
     animation: shadow-push-tr 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
-.feedback {
+.warning {
     color: red;
 }
+
+.feedback {
+    color: green;
+}
+
 
 /* experimenting */
 

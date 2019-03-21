@@ -4,7 +4,6 @@
 <head>
     <title>Hasnain Naeem | About Me</title>
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
-
 </head>
 
 <body>
@@ -16,7 +15,7 @@
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact-form">Contact Me</a></li>
+            <li><a href="#contact-form">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -179,7 +178,7 @@
 <br />
 
 <footer>
-    <form action="contact.py" class="contact-form">
+    <form action="contact.py" class="contact-form" id="contact-form">
         <div class="contact-header">
             <img src="http://www.hcrnetwork.com/wp-content/uploads/2012/11/email-icon-transparent-background-300x300.png" alt="Contact Icon"/>
             <h2>
@@ -191,9 +190,8 @@
                 <tr>
                     <td class="slim-column"><label for="fname">First Name:</label></td>
                     <td>
-                        <input type="text" id="fname" class="registration-form-input" size="50" required="required"
-                               onblur="checkLength('fname', 'name-feedback', 'Name must contain 3 or more characters.')" />
-                        <div id="name-feedback" class="feedback"></div>
+                        <input type="text" id="fname" class="registration-form-input" size="50" required="required"/>
+                        <div id="fname-feedback" class=""></div>
                     </td>
                 </tr>
 
@@ -207,9 +205,8 @@
                 <tr>
                     <td class="slim-column"><label for="email">Email:</label></td>
                     <td>
-                        <input type="text" id="email" class="registration-form-input" size="50" required="required"
-                        onblur="checkEmail('email', 'email-feedback', 'Incorrect email. Enter again.')"/>
-                        <div id="email-feedback" class="feedback"></div>
+                        <input type="text" id="email" class="registration-form-input" size="50" required="required"/>
+                        <div id="email-feedback"></div>
                     </td>
                 </tr>
 
@@ -229,10 +226,9 @@
     </div>
 
 </footer>
-
+<script src="js/jquery.js"></script>
 <script src="js/main.js"> </script>
 <script src="js/form-validation.js"></script>
-
 </body>
 </html>
 
