@@ -4,11 +4,23 @@ function beautifySkillsTable(){
 
 }
 
-function setup() {
-     // Chaning list style in skills table
-     beautifySkillsTable();
+
+function fadingInHeadings(){
+    $(":header").hide().fadeIn(1500);
 }
 
+function menuEffects(){
+    $("ul.menu li").hide().each(function(index) {
+        $(this).delay(50*index).fadeIn(700);
+    });
+}
+
+function setup() {
+    // Chaning list style in skills table
+    beautifySkillsTable();
+    menuEffects();
+    fadingInHeadings();
+}
 // Main starts
 // setup();
-$(":header").hide().fadeIn(1500);
+setup();
