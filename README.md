@@ -1,2 +1,2 @@
 # personal-site-lab-project
-I am coding this personal website in Web Engineering Labs.
+Coding this personal website from scratch in Web Engineering Labs.
